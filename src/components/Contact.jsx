@@ -3,7 +3,7 @@ import { FaWhatsapp, FaInstagram } from "react-icons/fa";
 
 import ingravityLogo from "@/assets/ingravityLogo.png";
 import contact1 from "@/assets/contact1.jpg";
-import contact2 from "@/assets/contact2.jpg";
+
 import rollerLogo from "@/assets/rollerLogo.png";
 
 import PageSection from "@/components/PageSection";
