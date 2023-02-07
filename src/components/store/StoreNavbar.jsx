@@ -10,26 +10,32 @@ const StoreNavbar = ({ isMenuShown, setIsMenuShown }) => {
     {
       id: 1,
       link: "inicio",
+      text: "inicio",
     },
     {
       id: 2,
       link: "patines",
+      text: "productos",
     },
     {
       id: 3,
       link: "downhill",
+      text: "downhill",
     },
     {
       id: 4,
       link: "chaquetas",
+      text: "chaquetas",
     },
     {
       id: 5,
       link: "gorras",
+      text: "gorras",
     },
     {
       id: 6,
       link: "promociones",
+      text: "promociones",
     },
   ];
 
@@ -57,10 +63,10 @@ const StoreNavbar = ({ isMenuShown, setIsMenuShown }) => {
 
           <div className="hidden lg:flex items-center ">
             <ul className="flex">
-              {links.map(({ id, link }) => (
+              {links.map(({ id, link, text }) => (
                 <Link key={id} to={`/productos/${link}`}>
                   <li className="p-4 uppercase duration-200 hover:text-thBlue cursor-pointer">
-                    {link}
+                    {text}
                   </li>
                 </Link>
               ))}

@@ -1,11 +1,16 @@
 import React, { useState } from "react";
 
-import balineras from "@/assets/rollerSkate/balineras.jpg";
-import ruedas from "@/assets/rollerSkate/ruedas.jpg";
+import xpider from "@/assets/rollerSkate/xpider.jpg";
+import bullet from "@/assets/rollerSkate/bullet.jpg";
 import profesionales from "@/assets/rollerSkate/profesionales.jpg";
+import chasisUrbanos from "@/assets/rollerSkate/chasisUrbanos.jpg";
+import ruedas from "@/assets/rollerSkate/ruedas.jpg";
+import chasisProfesionales from "@/assets/rollerSkate/chasisProfesionales.jpg";
+import protecciones from "@/assets/rollerSkate/protecciones.jpg";
+import xpro from "@/assets/rollerSkate/xpro.jpg";
 import recreativos from "@/assets/rollerSkate/recreativos.jpg";
 import accesorios from "@/assets/rollerSkate/accesorios.jpg";
-import urbanos from "@/assets/rollerSkate/urbanos.jpg";
+import repuestos from "@/assets/rollerSkate/repuestos.jpg";
 
 import PageSegction from "@/components/PageSection";
 import StoreNavbar from "@/components/store/StoreNavbar";
@@ -19,39 +24,69 @@ const RollerSkates = () => {
   const portfolios = [
     {
       id: 1,
+      src: xpider,
+      category: "xpider",
+      code: "/xpider.pdf",
+    },
+    {
+      id: 2,
+      src: bullet,
+      category: "bullet",
+      code: "/bullet.pdf",
+    },
+    {
+      id: 3,
       src: profesionales,
       category: "profesionales",
       code: "/profesionales.pdf",
     },
     {
-      id: 2,
+      id: 4,
+      src: chasisUrbanos,
+      category: "chasis Urbano",
+      code: "/chasisUrbano.pdf",
+    },
+    {
+      id: 5,
       src: ruedas,
       category: "ruedas",
       code: "/ruedas.pdf",
     },
     {
-      id: 3,
+      id: 6,
+      src: chasisProfesionales,
+      category: "chasis Profesional",
+      code: "/chasisProfesional.pdf",
+    },
+    {
+      id: 7,
+      src: protecciones,
+      category: "protecciones",
+      code: "/protecciones.pdf",
+    },
+    {
+      id: 8,
+      src: xpro,
+      category: "xpro",
+      code: "/xpro.pdf",
+    },
+    {
+      id: 9,
       src: recreativos,
       category: "recreativos",
       code: "/recreativos.pdf",
     },
     {
-      id: 4,
-      src: urbanos,
-      category: "urbanos",
-      code: "/urbanos.pdf",
-    },
-    {
-      id: 5,
+      id: 10,
       src: accesorios,
       category: "accesorios",
       code: "/accesorios.pdf",
     },
     {
-      id: 6,
-      src: balineras,
-      category: "balineras",
-      code: "/balineras.pdf",
+      id: 11,
+      src: repuestos,
+      category: "repuestos",
+      code: "/repuestos.pdf",
     },
   ];
 
