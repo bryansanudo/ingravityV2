@@ -97,10 +97,10 @@ const StoreNavbar = ({ isMenuShown, setIsMenuShown }) => {
         }`}
       >
         <ul>
-          {links.map(({ id, link }) => (
+          {links.map(({ id, link, text }) => (
             <Link key={id} to={`/productos/${link}`}>
               <li className="p-4 uppercase cursor-pointer duration-300 hover:text-thBlue">
-                {link}
+                {text}
               </li>
             </Link>
           ))}

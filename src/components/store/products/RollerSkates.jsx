@@ -96,8 +96,8 @@ const RollerSkates = () => {
       <div className="flex flex-col items-center ">
         <PageSegction
           name="/productos/patines"
-          title="Patines"
-          subtitle={`Recibe la mejor accesoria por patinadores expertos. Conoce los catálogos de patines.`}
+          title="Productos"
+          subtitle={`Recibe la mejor accesoria por patinadores expertos. Conoce el Catalogo de productos Roller.`}
         >
           <div
             name="portfolio"
