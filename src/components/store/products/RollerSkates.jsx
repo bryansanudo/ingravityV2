@@ -116,8 +116,9 @@ const RollerSkates = () => {
                         alt=""
                         className="rounded-md duration-200 hover:scale-105 object-cover  "
                       />
-                      <div className="flex items-center justify-center">
-                        <p className="m-4 py-3 uppercase">{category}</p>
+                      <div className="flex flex-col items-center justify-center">
+                        <p className="m-4 py- uppercase">{category}</p>
+                        <p className="m-4 py-">Desde $$$ Hasta $$$$</p>
                       </div>
                     </a>
                   </div>
