@@ -4,6 +4,7 @@ import ingravityVideo from "@/assets/nosotros.mp4";
 
 import PageSection from "@/components/PageSection";
 import downhill1 from "@/assets/downhillVideo/downhill1.mp4";
+import GradientBtn from "@/components/GradientBtn";
 
 const DevApi = () => {
   return (
@@ -29,6 +30,16 @@ const DevApi = () => {
             Te invitamos a formar parte de la comunidad y rodar por todo
             Medellín.
           </p>
+          <p className="border-l-4 pl-4 odd:border-thOrange even:border-thBlue">
+            Te invitamos a que te registres totalmente gratis y estes informado
+            de todos los eventos.
+          </p>
+          <a href="https://ingravity-roller.web.app/login">
+            <GradientBtn
+              className=" mt-4 capitalize w-full"
+              title="Inscripción"
+            />
+          </a>
         </div>
 
         <div className="w-full lg:w-1/2 flex justify-center  ">
