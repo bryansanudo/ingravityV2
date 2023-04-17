@@ -30,7 +30,7 @@ const DevApi = () => {
             Te invitamos a formar parte de la comunidad y rodar por todo
             Medellín.
           </p>
-          <p className="border-l-4 pl-4 odd:border-thOrange even:border-thBlue">
+          {/* <p className="border-l-4 pl-4 odd:border-thOrange even:border-thBlue">
             Te invitamos a que te registres totalmente gratis y estes informado
             de todos los eventos.
           </p>
@@ -39,7 +39,7 @@ const DevApi = () => {
               className=" mt-4 capitalize w-full"
               title="Inscripción"
             />
-          </a>
+          </a> */}
         </div>
 
         <div className="w-full lg:w-1/2 flex justify-center  ">
